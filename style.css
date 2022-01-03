@@ -1,3 +1,9 @@
 body {
   background: linear-gradient(#FFFFFF,#E3F6F5)
   font-family: sans-serif;
+<style>
+.btn {
+background-color: #29DE92;
+border: none;
+color: white;
+<style>
