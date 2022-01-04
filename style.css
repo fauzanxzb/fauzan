@@ -1,9 +1,13 @@
 body {
-  background: linear-gradient(#FFFFFF,#E3F6F5)
-  font-family: sans-serif;
-/*awal navbar */
-    .navbar-inverse {
-    background-color: #29DE92;
-    font-size:18px;
-    }
-</style>
+  background: #273036;
+}
+.jumbotron {
+  padding-top: 1rem;
+  background-color: #dfdfdf;
+}
+.aboutcolor {
+  color: #f2f2f2;
+}
+.row {
+  color: #f2f2f2;
+}
