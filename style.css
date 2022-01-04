@@ -1,5 +1,13 @@
 body {
-  background: #273036;
+  background: linear-gradient(#FFFFFF,#E3F6F5)
+  font-family: sans-serif;
+awal navbar
+    .navbar-inverse {
+    background-color: #29DE92;
+    font-size:18px;
+    }
+</style>
+
 }
 .jumbotron {
   padding-top: 1rem;
