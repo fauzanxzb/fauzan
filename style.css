@@ -1,21 +1,18 @@
 body {
   background: linear-gradient(#FFFFFF,#E3F6F5)
   font-family: sans-serif;
-awal navbar
-    .navbar-inverse {
-    background-color: #29DE92;
-    font-size:18px;
-    }
+
+
 </style>
 
 }
 .jumbotron {
   padding-top: 1rem;
-  background-color: #dfdfdf;
+  background-color: #F6D912;
 }
 .aboutcolor {
-  color: #f2f2f2;
+  color: #F6D912;
 }
 .row {
-  color: #f2f2f2;
+  color: #F6D912;
 }
