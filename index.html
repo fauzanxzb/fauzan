@@ -1,47 +1,58 @@
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-p {
-  text-align: center;
-  font-size: 60px;
-  margin-top: 0px;
-}
-</style>
-</head>
-<body>
+<!DOCTYPE html>
+<input type="hidden" id="__yoroi_connector_api_injected_type" value="prod"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
 
-<p id="demo"></p>
+    <title>Narrow Jumbotron Template for Bootstrap</title>
 
-<script>
-// Tetapkan tanggal kita menghitung mundur
-var countDownDate = new Date("july 27, 2022 10:00:20").getTime();
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/editor.css" rel="stylesheet">
 
-// Perbarui hitungan mundur setiap 1 detik
-var x = setInterval(function() {
+    <!-- Custom styles for this template -->
+    <link href="narrow-jumbotron.css" rel="stylesheet">
+  </head>
 
-  // Dapatkan tanggal dan waktu hari ini
-  var now = new Date().getTime();
-    
-  // Temukan jarak antara sekarang dan tanggal hitung mundur
-  var distance = countDownDate - now;
-    
-  // Perhitungan waktu untuk hari, jam, menit dan detik
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  // Keluarkan hasil dalam elemen dengan id = "demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-    
-  //Jika hitungan mundur selesai, tulis beberapa teks
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
-  </body>
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              
+            </li>
+            <li class="nav-item">
+              
+            </li>
+            <li class="nav-item">
+              
+            </li>
+          </ul>
+        </nav>
+        <h3 class="text-muted" style="font-family: Trebuchet MS, Helvetica, sans-serif;">FAUZANZB<br></h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1 class="display-3" id="" style="opacity: 1; font-family: Trebuchet MS, Helvetica, sans-serif;">COOMING SOON<br></h1>
+        <p class="lead"><br></p>
+        <p></p>
+      </div>
+
+      <div class="row marketing">
+        
+
+        
+      </div>
+
+      <footer class="footer">
+        
+      <p style="background-color: rgb(255, 255, 255); font-weight: 700;">©XZB 2022<br></p></footer>
+
+    </div> <!-- /container -->
+  
+
+</body>
 </html>
