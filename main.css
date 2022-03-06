@@ -92,7 +92,7 @@ header .content h2 {
 header .content .countdown {
   color: #FFF;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 600;
 }
 @media screen and (min-width: 480px) {
   header .content .countdown {
